@@ -1,7 +1,3 @@
-Here's the updated `README.md` file with the project name changed to **YEEK**:
-
----
-
 # YEEK 🗣️
 
 A full-stack, geolocation-based, real-time social media application inspired by Yik Yak. This app allows users to post anonymously within a specific geographic radius, upvote/downvote posts, and engage in discussions via comments — all updated in real time using **Socket.io**.
@@ -10,10 +6,10 @@ A full-stack, geolocation-based, real-time social media application inspired by 
 
 - **Anonymous Posting**: Users can post without signing in.
 - **Geolocation-Based Posts**: Posts are tied to the user's current location and displayed within a configurable radius.
-- **Real-Time Updates**: Posts, votes, and comments are updated in real time across all users using **Socket.io**.
-- **Upvotes/Downvotes**: Users can vote on posts in real time.
+- **Real-Time Updates**: Posts, votes, and comments are updated in real-time across all users using **Socket.io**.
+- **Upvotes/Downvotes**: Users can vote on posts in real-time.
 - **Comments**: Users can add comments to posts and engage in discussions.
-- **Responsive Design**: The app is fully responsive and works on all device sizes.
+- **Responsive Design**: The fully responsive app works on all device sizes.
 
 ## **Tech Stack**
 
@@ -34,7 +30,7 @@ A full-stack, geolocation-based, real-time social media application inspired by 
 - **Socket.io** for real-time updates.
 
 ### **Geolocation**:
-- Browser **Geolocation API** for fetching the user's current location.
+- Browser **Geolocation API** is used to fetch the user's current location.
 
 ---
 
@@ -65,7 +61,7 @@ Make sure you have the following installed on your system:
     Navigate to the backend directory:
 
     ```bash
-    cd yik-yak-backend
+    cd yeek-backend
     ```
 
     Install dependencies:
@@ -92,7 +88,7 @@ Make sure you have the following installed on your system:
     Navigate to the frontend directory:
 
     ```bash
-    cd ../yik-yak-frontend
+    cd ../yeek-frontend
     ```
 
     Install dependencies:
@@ -115,11 +111,11 @@ Make sure you have the following installed on your system:
 
 
 YEEK/
-├── yik-yak-backend/             # Backend (Node.js, Express, PostgreSQL)
+├──yeek-backend/             # Backend (Node.js, Express, PostgreSQL)
 │   ├── index.js                 # Main server file
 │   ├── .env                     # Environment variables
 │   └── package.json             # Backend dependencies
-├── yik-yak-frontend/            # Frontend (React, Vite)
+├── yeek-frontend/            # Frontend (React, Vite)
 │   ├── src/                     # React source files
 │   │   ├── components/          # Reusable components
 │   │   ├── App.jsx              # Main React component
