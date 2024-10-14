@@ -1,0 +1,175 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling for centering the container */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f8fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main container centered on the screen */
+.App {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #00bfa5;
+  margin-bottom: 30px;
+}
+
+/* New post form styling */
+form {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 15px;
+  font-size: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #00bfa5;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  background-color: #00bfa5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #008e75;
+}
+
+/* Post container */
+.post {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.post-content {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Vote buttons */
+.vote-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.vote-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 0 10px;
+}
+
+.vote-buttons .upvote {
+  color: #00bfa5;
+}
+
+.vote-buttons .downvote {
+  color: #e74c3c;
+}
+
+.vote-buttons span {
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Comments section */
+.comments {
+  margin-top: 15px;
+}
+
+.comment-form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.comment-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.comment-form button {
+  padding: 10px 15px;
+  background-color: #00bfa5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #008e75;
+}
+
+/* Individual comment styling */
+.comment-list {
+  margin-top: 10px;
+}
+
+.comment {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 15px;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+
+  textarea {
+    font-size: 0.9rem;
+  }
+}

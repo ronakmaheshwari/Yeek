@@ -1,0 +1,156 @@
+/* client/src/styles/App.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    min-height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* New Post Form */
+  .new-post-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .new-post-form textarea {
+    resize: vertical;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .new-post-form button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color: #00bfa5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .new-post-form button:hover {
+    background-color: #008e75;
+  }
+  
+  /* Post List */
+  .post-list {
+    margin-top: 20px;
+  }
+  
+  /* Individual Post */
+  .post {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    background-color: #fafafa;
+  }
+  
+  .post-content {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Vote Buttons */
+  .vote-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .vote-buttons button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .vote-buttons .upvote {
+    color: green;
+  }
+  
+  .vote-buttons .downvote {
+    color: red;
+  }
+  
+  .vote-buttons span {
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  
+  /* Comments Section */
+  .comments-section {
+    margin-top: 15px;
+  }
+  
+  .comments-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .comment-list {
+    margin-bottom: 10px;
+  }
+  
+  .comment {
+    background-color: #e9e9e9;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  .comment-form {
+    display: flex;
+  }
+  
+  .comment-form input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .comment-form button {
+    padding: 8px 12px;
+    background-color: #00bfa5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .comment-form button:hover {
+    background-color: #008e75;
+  }
+  
+  /* Error Message */
+  .error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
