@@ -1,7 +1,3 @@
-Here’s a sample `README.md` file for your Yik Yak clone project built with React, CSS, PostgreSQL, Node.js, Express, geolocation, and Socket.io. You can adapt this to fit your exact project requirements.
-
----
-
 # YEEK: A Yik Yak Clone
 
 **YEEK** is a Yik Yak-like social media platform built for the PC, allowing users to post anonymously, upvote/downvote content, and comment on posts based on their geolocation. The project uses React on the frontend, Node.js and Express for the backend, PostgreSQL as the database, and Socket.io for real-time updates.
