@@ -152,7 +152,3 @@ Contributions are welcome! Feel free to open a pull request or submit issues if 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to update this file based on your project specifics, and don't forget to include the appropriate links, such as live demo links, ER diagrams, etc.
